@@ -1,0 +1,52 @@
+body{
+
+    background-color: #232e33;
+    margin:0;
+}
+
+.nav{
+   
+    width: 100vw;
+    font-weight: bold;
+    background-color: #192024;
+    margin-top: -15px;
+
+}
+
+ul{
+
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+li{
+
+    padding: 12px 28px;
+}
+
+a{
+    text-decoration: none;
+    color: white; 
+    position: relative;
+   
+}
+
+li a::after{
+
+    content:"";
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0.25em;
+    background-color: blue;
+    transition: all ease-in-out 250ms;
+}
+
+li a:hover::after{
+
+    width: 100%;
+}
+
