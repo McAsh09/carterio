@@ -25,6 +25,8 @@ ul{
 li{
 
     padding: 12px 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 a{
